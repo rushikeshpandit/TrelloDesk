@@ -1,0 +1,16 @@
+{
+	"skip_files": [
+		"lib/trello_desk/application.ex",
+		"lib/trello_desk/orders.ex",
+		"lib/trello_desk_web.ex",
+		"lib/trello_desk_web/telemetry.ex",
+		"lib/trello_desk_web/router.ex",
+		"lib/trello_desk_web/views/error_helpers.ex",
+		"test/support/data_case.ex",
+		"lib/trello_desk_web/components/core_components.ex"
+	],
+	"coverage_options": {
+		"treat_no_relevant_lines_as_covered": true,
+		"minimum_coverage": 95
+	}
+}
