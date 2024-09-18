@@ -19,7 +19,7 @@ defmodule TrelloDesk.MixProject do
   def application do
     [
       mod: {TrelloDesk.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :eex, :observer, :runtime_tools]
     ]
   end
 
