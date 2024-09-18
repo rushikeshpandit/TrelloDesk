@@ -9,7 +9,7 @@ import Config
 
 config :trello_desk,
   ecto_repos: [TrelloDesk.Repo],
-  generators: [timestamp_type: :utc_datetime]
+  generators: [timestamp_type: :utc_datetime, binary_id: true]
 
 # Configures the endpoint
 config :trello_desk, TrelloDeskWeb.Endpoint,
